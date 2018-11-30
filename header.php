@@ -1,1 +1,9 @@
-<h1>Greetings From Header.PHP</h1>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <?php wp_head(); ?>
+    <title>Flyhightech University</title>
+</head>
+
+<body>
