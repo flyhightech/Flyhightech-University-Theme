@@ -47,7 +47,7 @@
             <?php 
 
                 // Naming a new function
-                
+
                 $homepagePosts = new WP_Query(array(
                     'posts_per_page' => 2
                 ));
@@ -68,7 +68,7 @@
                     </div>
                     
                     <?php 
-                }
+                } wp_reset_postdata();
             ?>
 
             
